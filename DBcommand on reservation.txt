@@ -1,0 +1,27 @@
+mysql -u root
+
+create database hotel;
+use hotel;
+create table reservation (
+firstname varchar(30),
+lastname varchar(30),
+checkin varchar(8),
+checkout varchar(8),
+numofroom varchar(5),
+gperroom int(11),
+specialrate varchar(30),
+studio varchar(5),
+standard varchar(5),
+family varchar(5),
+suite varchar(5),
+specialrequest varchar(100),
+street varchar(50),
+city varchar(30),
+state varchar(10),
+zip varchar(10),
+phone varchar(25),
+creditcard varchar(23),
+creditcardnumber varchar(50),
+expdate varchar(5));
+
+

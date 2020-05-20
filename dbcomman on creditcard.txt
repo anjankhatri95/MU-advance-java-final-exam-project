@@ -1,0 +1,5 @@
+use hotel;
+
+create table creditcard
+(creditcard varchar (21) primary key not null);
+insert into creditcard(creditcard) values('123456789012345605/20');
